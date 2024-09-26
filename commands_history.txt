@@ -1,0 +1,584 @@
+ls -l
+add user vasu
+ sudo add user vasu
+sudo adduser vasu
+su - vasu
+sudo su - vasu
+exit
+sudo passwd ec2-user
+sudo su 
+sudo vi /etc/ssh/sshd_config
+sudo adduser vasu
+sudo passwd vasu
+su - v vasu
+sudo su -vasu
+sudo su - vasu
+ sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
+ssh vasu@16.171.239.132
+ls
+cd 
+su - vasu
+sudo yum update
+q
+sudo yum install java-21-openjdk-devel
+java -version
+sudo yum install wget
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+ls
+ls -lh
+history
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm -y
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+free -m
+free -g
+free -k
+history
+env
+env | grep oracle
+env | grep user
+export oracle_home=/opt/oracle/product/21c/dbhomeXE
+export oracle_sid=XE
+export path=$path:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+echo $ORACLE_HOME
+echo $oracle_home
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+echo $ORACLE_HOME
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sqlplus
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+ export ORACLE_SID=XE
+ export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+sqlplus
+ls -al
+vi bash_profile
+sqlplus
+source -/bash_profile
+source ~/bash_profile
+sqlplus
+sudo bash
+sqlplus
+sql startup
+sqlplus
+lsnrctl status
+netstat -ltnp
+GRANT connect ,resource,dba to classicmodels;
+sqlplus
+history
+ netstat -ltnp
+sudo bash
+ls -al
+ls -ah
+sudo bash
+exit
+source ~/.bashrc
+exit
+sudo bash
+cat .bash_profile
+lsnrctl status
+lsnrctl start
+source /home/ec2-user/.bash_profile
+lsnrctl start
+sudo bash
+sqlplus
+exit
+ls 
+cd $PATH
+cd /opt/oracle/product/21c/dbhomeXE/bin/
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+sudo bash
+sqlplus
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+lsnrctl start
+source /.bash_profile
+cd .
+sudo bash
+source /.bash_profile
+cd
+source /.bash_profile
+sudo bash
+cd /opt/oracle/product/21c/dbhomeXE/bin
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+lsnrctl status
+ls 
+vi classicmodels.dmp
+#1727330665
+export HISTTIMEFORMAT="%F %T "
+#1727330665
+source ~/.bashrc
+#1727330665
+history > commandslist.txt
+#1727330673
+ls 
+#1727330712
+vi commandslist.txt
+#1727332789
+sudo yum install git
+#1727332845
+mkdir github_task
+#1727332852
+cd github_task
+#1727332865
+git clone git@github.com:vasuRongali/training-vasu.git
+#1727332948
+git clone git@github.com:vasuRongali/training_vasu.git
+#1727333780
+git clone https://github.com/vasuRongali/training_vasu.git
+#1727333826
+nano update_history.sh
+#1727333842
+vi update_history.sh
+#1727333945
+history
+#1727333982
+vi commands_history.txt
+#1727334012
+chmod +x update_history.sh
+#1727334026
+./update_history.sh
+#1727334158
+ls 
+#1727334167
+ls -a
+#1727334259
+cd 
+#1727334264
+ls -a
+#1727334363
+cd github_task
+#1727334368
+git status
+#1727334374
+git init
+#1727334389
+ls -a
+#1727334832
+git remote add origin  https://github.com/vasuRongali/training_vasu.git
+#1727334919
+./update_history.sh
+#1727334948
+cat command_history
+#1727334961
+ls -al
+#1727334976
+cat command_history.txt
+#1727334994
+vi command_history.txt
+#1727335042
+./update_history.sh commands_history.txt
+#1727335082
+./update_history.sh
+#1727335365
+vi update_history.sh
+#1727335393
+./update_history.sh
+#1727335425
+cat commands_history.txt
+#1727335872
+vi update_history.sh
+#1727335902
+./update_history.sh
+#1727335921
+ls -al
+#1727335935
+cat commands_history.txt
+#1727335960
+cat command_history
+#1727335966
+cat command_history.txt
+#1727335980
+./update_history.sh
+#1727335988
+ls -al
+#1727335991
+./update_history.sh
+#1727336015
+cat commands_history.txt
+#1727336188
+history
+#1727336335
+history -a
+#1727336345
+./update_history.sh
+#1727336366
+cat commands_list.txt
+#1727336381
+ls -al
+#1727336393
+cat commands_history.txt
+#1727336425
+ls -al
+#1727336430
+./update_history.sh
+#1727336444
+vi update_history.sh
+#1727337002
+ls
+#1727337005
+pwd
+#1727337011
+./update_history.sh
+#1727337132
+vi update_history.sh
+#1727337302
+./update_history.sh
+#1727337402
+source ~/.bashrc
+#1727337418
+source ~/.bash_profile
+#1727337422
+./update_history.sh
+#1727337457
+vi ~/.bashrc
+#1727337475
+vi ~/.bash_profile
+#1727337622
+source ~/.bash_profile
+#1727337627
+./update_history.sh
+#1727337630
+ls 
+#1727337635
+ls -al
+#1727337638
+./update_history.sh
+#1727338573
+vi update_history.txt
+vi update_history.sh
+ls
+cd github_task
+cat update_history.sh
+vi update_history
+vi update_history.sh
+./update_history.sh
+ssh -keygen -t rsa -C "key_pair"
+ssh-keygen -t rsa -C "key_pair"
+cd .ssh
+exit
+ls 
+ls -al
+cd .ssh
+ls -al
+cat id_rsa.pub
+cd 
+cd github_task
+ls -al
+rm -rf training_vasu
+ls -al
+git clone git@github.com:vasuRongali/training_vasu.git
+./update_history.sh
+ls -al
+rm -rf command_history.txt
+ls -al
+vi update_history.txt
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
+ls -l
+add user vasu
+ sudo add user vasu
+sudo adduser vasu
+su - vasu
+sudo su - vasu
+exit
+sudo passwd ec2-user
+sudo su 
+sudo vi /etc/ssh/sshd_config
+sudo adduser vasu
+sudo passwd vasu
+su - v vasu
+sudo su -vasu
+sudo su - vasu
+ sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
+ssh vasu@16.171.239.132
+ls
+cd 
+su - vasu
+sudo yum update
+q
+sudo yum install java-21-openjdk-devel
+java -version
+sudo yum install wget
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+ls
+ls -lh
+history
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm -y
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+free -m
+free -g
+free -k
+history
+env
+env | grep oracle
+env | grep user
+export oracle_home=/opt/oracle/product/21c/dbhomeXE
+export oracle_sid=XE
+export path=$path:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+echo $ORACLE_HOME
+echo $oracle_home
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+echo $ORACLE_HOME
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sqlplus
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+ export ORACLE_SID=XE
+ export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+sqlplus
+ls -al
+vi bash_profile
+sqlplus
+source -/bash_profile
+source ~/bash_profile
+sqlplus
+sudo bash
+sqlplus
+sql startup
+sqlplus
+lsnrctl status
+netstat -ltnp
+GRANT connect ,resource,dba to classicmodels;
+sqlplus
+history
+ netstat -ltnp
+sudo bash
+ls -al
+ls -ah
+sudo bash
+exit
+source ~/.bashrc
+exit
+sudo bash
+cat .bash_profile
+lsnrctl status
+lsnrctl start
+source /home/ec2-user/.bash_profile
+lsnrctl start
+sudo bash
+sqlplus
+exit
+ls 
+cd $PATH
+cd /opt/oracle/product/21c/dbhomeXE/bin/
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+sudo bash
+sqlplus
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+lsnrctl start
+source /.bash_profile
+cd .
+sudo bash
+source /.bash_profile
+cd
+source /.bash_profile
+sudo bash
+cd /opt/oracle/product/21c/dbhomeXE/bin
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+lsnrctl status
+ls 
+vi classicmodels.dmp
+#1727330665
+export HISTTIMEFORMAT="%F %T "
+#1727330665
+source ~/.bashrc
+#1727330665
+history > commandslist.txt
+#1727330673
+ls 
+#1727330712
+vi commandslist.txt
+#1727332789
+sudo yum install git
+#1727332845
+mkdir github_task
+#1727332852
+cd github_task
+#1727332865
+git clone git@github.com:vasuRongali/training-vasu.git
+#1727332948
+git clone git@github.com:vasuRongali/training_vasu.git
+#1727333780
+git clone https://github.com/vasuRongali/training_vasu.git
+#1727333826
+nano update_history.sh
+#1727333842
+vi update_history.sh
+#1727333945
+history
+#1727333982
+vi commands_history.txt
+#1727334012
+chmod +x update_history.sh
+#1727334026
+./update_history.sh
+#1727334158
+ls 
+#1727334167
+ls -a
+#1727334259
+cd 
+#1727334264
+ls -a
+#1727334363
+cd github_task
+#1727334368
+git status
+#1727334374
+git init
+#1727334389
+ls -a
+#1727334832
+git remote add origin  https://github.com/vasuRongali/training_vasu.git
+#1727334919
+./update_history.sh
+#1727334948
+cat command_history
+#1727334961
+ls -al
+#1727334976
+cat command_history.txt
+#1727334994
+vi command_history.txt
+#1727335042
+./update_history.sh commands_history.txt
+#1727335082
+./update_history.sh
+#1727335365
+vi update_history.sh
+#1727335393
+./update_history.sh
+#1727335425
+cat commands_history.txt
+#1727335872
+vi update_history.sh
+#1727335902
+./update_history.sh
+#1727335921
+ls -al
+#1727335935
+cat commands_history.txt
+#1727335960
+cat command_history
+#1727335966
+cat command_history.txt
+#1727335980
+./update_history.sh
+#1727335988
+ls -al
+#1727335991
+./update_history.sh
+#1727336015
+cat commands_history.txt
+#1727336188
+history
+#1727336335
+history -a
+#1727336345
+./update_history.sh
+#1727336366
+cat commands_list.txt
+#1727336381
+ls -al
+#1727336393
+cat commands_history.txt
+#1727336425
+ls -al
+#1727336430
+./update_history.sh
+#1727336444
+vi update_history.sh
+#1727337002
+ls
+#1727337005
+pwd
+#1727337011
+./update_history.sh
+#1727337132
+vi update_history.sh
+#1727337302
+./update_history.sh
+#1727337402
+source ~/.bashrc
+#1727337418
+source ~/.bash_profile
+#1727337422
+./update_history.sh
+#1727337457
+vi ~/.bashrc
+#1727337475
+vi ~/.bash_profile
+#1727337622
+source ~/.bash_profile
+#1727337627
+./update_history.sh
+#1727337630
+ls 
+#1727337635
+ls -al
+#1727337638
+./update_history.sh
+#1727338573
+vi update_history.txt
+vi update_history.sh
+ls
+cd github_task
+cat update_history.sh
+vi update_history
+vi update_history.sh
+./update_history.sh
+ssh -keygen -t rsa -C "key_pair"
+ssh-keygen -t rsa -C "key_pair"
+cd .ssh
+exit
+ls 
+ls -al
+cd .ssh
+ls -al
+cat id_rsa.pub
+cd 
+cd github_task
+ls -al
+rm -rf training_vasu
+ls -al
+git clone git@github.com:vasuRongali/training_vasu.git
+./update_history.sh
+ls -al
+rm -rf command_history.txt
+ls -al
+vi update_history.txt
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
+./update_history.sh
+vi update_history.sh
